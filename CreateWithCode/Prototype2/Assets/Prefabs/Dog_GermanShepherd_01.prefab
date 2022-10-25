@@ -2396,7 +2396,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 109229575388467740}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.032037117}
+  m_LocalPosition: {x: 0, y: 0, z: 0.544}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 109229575388158966}
@@ -2765,6 +2765,9 @@ GameObject:
   - component: {fileID: 109229575379071190}
   - component: {fileID: 110153994581348926}
   - component: {fileID: -7634406930721165401}
+  - component: {fileID: 4807755005607010193}
+  - component: {fileID: 5750452014508259697}
+  - component: {fileID: 8493279896980150066}
   m_Layer: 0
   m_Name: Dog_GermanShepherd_01
   m_TagString: Untagged
@@ -2865,6 +2868,43 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f2653d846d77b66498c1c2bd266643db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &4807755005607010193
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 109229575388468612}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.07671454, y: 0.21473177, z: 0.26294607}
+  m_Center: {x: -0.0008112073, y: 0.10366618, z: 0.03640503}
+--- !u!114 &5750452014508259697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 109229575388468612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29b4ea3be480dfb4283f9cb07812784f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8493279896980150066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 109229575388468612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29b4ea3be480dfb4283f9cb07812784f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &109229575388470152

@@ -123,23 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &58514856 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7344827163469556884, guid: 8329e9427c175684cac04e5c7dfcfa06, type: 3}
-  m_PrefabInstance: {fileID: 7344827162186461789}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &58514860
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 58514856}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2653d846d77b66498c1c2bd266643db, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &170076733
 GameObject:
   m_ObjectHideFlags: 0
@@ -535,23 +518,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!1 &978334842 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5150036465594701123, guid: 526c10d2666fbcf4da9c78c0d1a0d417, type: 3}
-  m_PrefabInstance: {fileID: 5150036465782885389}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &978334846
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 978334842}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2653d846d77b66498c1c2bd266643db, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &992285705
 GameObject:
   m_ObjectHideFlags: 0
@@ -585,23 +551,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1203202546 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 109229575388468612, guid: 3ffffb05546a0474ebddb02c900a0807, type: 3}
-  m_PrefabInstance: {fileID: 109229575610275956}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1203202550
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1203202546}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2653d846d77b66498c1c2bd266643db, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1392046958 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 6f52b946693e54048af74f5cd6ba49f8, type: 3}
@@ -808,10 +757,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dog_GermanShepherd_01
       objectReference: {fileID: 0}
-    - target: {fileID: 109229575388468612, guid: 3ffffb05546a0474ebddb02c900a0807, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ffffb05546a0474ebddb02c900a0807, type: 3}
 --- !u!1001 &3291455961704085350
@@ -926,10 +871,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dog_RhodesianRidgeback_01
       objectReference: {fileID: 0}
-    - target: {fileID: 5150036465594701123, guid: 526c10d2666fbcf4da9c78c0d1a0d417, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 526c10d2666fbcf4da9c78c0d1a0d417, type: 3}
 --- !u!1001 &7344827162186461789
@@ -986,10 +927,6 @@ PrefabInstance:
     - target: {fileID: 7344827163469556884, guid: 8329e9427c175684cac04e5c7dfcfa06, type: 3}
       propertyPath: m_Name
       value: Dog_SaintBernard_01
-      objectReference: {fileID: 0}
-    - target: {fileID: 7344827163469556884, guid: 8329e9427c175684cac04e5c7dfcfa06, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8329e9427c175684cac04e5c7dfcfa06, type: 3}
