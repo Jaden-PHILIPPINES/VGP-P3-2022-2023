@@ -5,7 +5,7 @@ using UnityEngine;
 public class DestroyOutOfBoundsX : MonoBehaviour
 {
     private float leftBound = -30;
-    private float lowerBound = -10;
+    private float lowerBound = -5;
 
         // Start is called before the first frame update
     void Start()
@@ -22,10 +22,10 @@ public class DestroyOutOfBoundsX : MonoBehaviour
             Destroy(gameObject);
         } 
         // Destroy balls if y position is less than lowerBound
-        else if (transform.position.z < lowerBound)
+        else if (transform.position.y < lowerBound)
         {
-            Destroy(gameObject);
+        Debug.Log("skill issue!");
+        Destroy(gameObject);
         }
-
     }
 }
