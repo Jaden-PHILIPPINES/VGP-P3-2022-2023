@@ -2,18 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour
+public class PlayerControl : MonoBehaviour
 {
     private Rigidbody playerRb;
-    public float jumpforce = 10;
+    public float jumpForce = 10;
     public float gravityModifier;
-    public bool isOnGround = true
+    public bool isOnGround = true; 
 
     // Start is called before the first frame update
     void Start()
     {
         playerRb = GetComponent<Rigidbody>();
-        Physics.gravity *= gravityModifier; 
+        Physics.gravity *= gravityModifier;
     }
 
     // Update is called once per frame
@@ -21,8 +21,8 @@ public class PlayerController : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space) && isOnGround)
         {
-            playerRb.AddForce(Vector3.up * jumpforce, ForceMode.Impulse);
-            isOnGround = false;
+        playerRb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
+        isOnGround = false;
         }
     }
 
@@ -31,3 +31,5 @@ public class PlayerController : MonoBehaviour
         isOnGround = true;
     }
 }
+
+
