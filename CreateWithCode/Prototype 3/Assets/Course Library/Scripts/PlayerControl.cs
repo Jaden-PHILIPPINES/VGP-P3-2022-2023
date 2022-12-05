@@ -7,8 +7,12 @@ public class PlayerControl : MonoBehaviour
     private Rigidbody playerRb;
     public float jumpForce = 10;
     public float gravityModifier;
+<<<<<<< HEAD
     public bool isOnGround = true;
     public bool gameOver;
+=======
+    public bool isOnGround = true; 
+>>>>>>> parent of 3703777 (Anger)
 
     // Start is called before the first frame update
     void Start()
@@ -29,6 +33,7 @@ public class PlayerControl : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
+<<<<<<< HEAD
         
         if(collision.gameObject.CompareTag("Ground"))
         {
@@ -38,5 +43,10 @@ public class PlayerControl : MonoBehaviour
             Debug.Log("Game Over");
             gameOver = true;
         }
+=======
+        isOnGround = true;
+>>>>>>> parent of 3703777 (Anger)
     }
 }
+
+
