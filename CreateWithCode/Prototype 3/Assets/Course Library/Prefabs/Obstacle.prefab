@@ -11,10 +11,9 @@ GameObject:
   - component: {fileID: 8444355432227065204}
   - component: {fileID: 8444355432230489428}
   - component: {fileID: 8444355432229499028}
-  - component: {fileID: 657970825944482849}
   m_Layer: 0
   m_Name: Prop_Barrier02
-  m_TagString: Obstacle
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -84,18 +83,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &657970825944482849
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8444355432227299668}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 30714701c1d53d547800edba6e5a5896, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &8444355432227299674
 GameObject:
   m_ObjectHideFlags: 0
@@ -107,9 +94,11 @@ GameObject:
   - component: {fileID: 8444355432227065210}
   - component: {fileID: 1794760073025354869}
   - component: {fileID: 5471753831749392457}
+  - component: {fileID: 7425262224759310379}
+  - component: {fileID: 1628384765}
   m_Layer: 0
   m_Name: Obstacle
-  m_TagString: Obstacle
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -159,3 +148,27 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.35570335, y: 0.9463086, z: 3.1745057}
   m_Center: {x: -0.06711483, y: 1.2483275, z: -0.013422728}
+--- !u!114 &7425262224759310379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8444355432227299674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30714701c1d53d547800edba6e5a5896, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1628384765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8444355432227299674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30714701c1d53d547800edba6e5a5896, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
