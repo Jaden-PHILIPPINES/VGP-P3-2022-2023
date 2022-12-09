@@ -94,7 +94,7 @@ GameObject:
   - component: {fileID: 3099716229598951660}
   - component: {fileID: 5793887550316137812}
   - component: {fileID: 9144700323127264678}
-  - component: {fileID: 4088102751218360717}
+  - component: {fileID: 2629716178848871171}
   m_Layer: 0
   m_Name: Obstacle
   m_TagString: Obstacle
@@ -147,7 +147,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.6153755, y: 1.9134789, z: 3.1795287}
   m_Center: {x: -0.01602745, y: 0.9375179, z: 0.016025782}
---- !u!114 &4088102751218360717
+--- !u!114 &2629716178848871171
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
