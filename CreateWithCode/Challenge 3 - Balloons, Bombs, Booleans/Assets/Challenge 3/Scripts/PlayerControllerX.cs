@@ -9,10 +9,8 @@ public class PlayerControllerX : MonoBehaviour
     public float floatForce;
     private float gravityModifier = 1.5f;
     private Rigidbody playerRb;
-
     public ParticleSystem explosionParticle;
     public ParticleSystem fireworksParticle;
-
     private AudioSource playerAudio;
     public AudioClip moneySound;
     public AudioClip explodeSound;
@@ -21,6 +19,7 @@ public class PlayerControllerX : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        playerRb = GetComponent<Rigidbody>();
         Physics.gravity *= gravityModifier;
         playerAudio = GetComponent<AudioSource>();
 
